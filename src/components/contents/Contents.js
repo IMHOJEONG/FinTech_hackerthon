@@ -11,7 +11,7 @@ const ContentsDiv = styled.div`
     background : background: linear-gradient(#9198e5,#E0FFFF);
     display: flex;
     flex-direction: column;
-    padding: 5em;
+    padding: 2em;
 `;
 
 

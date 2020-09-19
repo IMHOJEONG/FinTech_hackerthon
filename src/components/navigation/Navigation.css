@@ -12,6 +12,10 @@
     font-size: 23px;
 }
 
+.nav_title{
+    font-weight: bold;
+}
+
 .nav_link{
     text-decoration : none;
     color: black;
@@ -26,4 +30,8 @@
 
 .Logo {
     width: 7em;
+}
+
+.main_logo{
+    display: flex;
 }

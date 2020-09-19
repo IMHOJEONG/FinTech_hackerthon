@@ -7,6 +7,7 @@ import axios from 'axios';
 
 
 const CardsDiv = styled.div`
+    width: 20em;
     background : yellow;
     border-radius: 2px;
 `;
@@ -35,11 +36,11 @@ const CardsImg = styled.img`
 
 function Cards(props){
 
-    async function dataGet() {
-        const data = await axios.get("/customers");
-        console.log(data);
-    }
-    dataGet();
+    // async function dataGet() {
+    //     const data = await axios.get("/customers");
+    //     console.log(data);
+    // }
+    // dataGet();
 
     function calPercentage() {
         return "100%";
@@ -66,9 +67,9 @@ function Cards(props){
                     <div>|</div>
                     <div>C2</div>
                     <div>|</div>
-                    <div>1.01억</div>
+                    <div>1억</div>
                 </CardsArticles2>
-                <div class="address">
+                <div className="address">
                 제4141차 1호선 소사역 인근 주상복합아파트 신축사업 사업자대출 10차
                 </div>
                 <Link to={{

@@ -12,7 +12,7 @@ function CardContainer(){
 
     return (
         <CardContainerDiv className="cardcontainer">
-            {[1,2,3].map((e,i)=> { 
+            {[1,2,3,4,5].map((e,i)=> { 
                 return <Cards key={i} value={e}/>
             })}
         </CardContainerDiv>  
