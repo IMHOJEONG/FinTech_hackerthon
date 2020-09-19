@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import './Navigation.css';
 import { Link } from 'react-router-dom';
+import logo from './logo.png';
 
 const NavigationDiv = styled.div`
     display: flex;
     justify-content: space-around;
-    background : rgba(240, 240, 240, 0.8);
+    background : white;
     padding: 2em 1em;
 `;
 
@@ -29,7 +30,7 @@ function Navigation() {
     return (
         <NavigationDiv>
             <NavigationLeftDiv className="first">
-                <NavigationContentsDiv ><i className="fab fa-linux fa-3x"></i></NavigationContentsDiv>
+    <NavigationContentsDiv ><img src={logo} class="Logo"></img></NavigationContentsDiv>
                 <Link to="/" className="nav_link">
                     <NavigationContentsDiv className="nav_title">First Penguin</NavigationContentsDiv>
                 </Link>

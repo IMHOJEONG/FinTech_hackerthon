@@ -36,17 +36,7 @@ const CardsImg = styled.img`
 function Cards(props){
 
     async function dataGet() {
-        const data = await axios.get("http://115.85.181.136:8888/customers",{
-            method: 'GET',
-            mode: 'no-cors',
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Content-Type' : 'application/json',
-                'Acces-Control-Allow-Credentials': 'true'
-            },
-            withCredentials: true,
-            credentials: 'same-origin',
-        });
+        const data = await axios.get("/customers");
         console.log(data);
     }
     dataGet();
@@ -78,7 +68,7 @@ function Cards(props){
                     <div>|</div>
                     <div>1.01억</div>
                 </CardsArticles2>
-                <div>
+                <div class="address">
                 제4141차 1호선 소사역 인근 주상복합아파트 신축사업 사업자대출 10차
                 </div>
                 <Link to={{

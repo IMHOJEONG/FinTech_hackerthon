@@ -8,7 +8,7 @@ import CompanyIntro from './companyIntro/CompanyIntro';
 import Register from './register/Register';
 import Login from './login/Login';
 const ContentsDiv = styled.div`
-    background : linear-gradient(#808080, #ffffff);
+    background : background: linear-gradient(#9198e5,#E0FFFF);
     display: flex;
     flex-direction: column;
     padding: 5em;

@@ -46,3 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* 전체 폰트 지정 */
+div {
+	font-family: 'Montserrat', sans-serif;
+}

@@ -8,16 +8,22 @@
     font-size : 40px;
 }
 .first > div:nth-child(n+3), .first + div {
-    padding-top: 1em;
+    padding-top: 1.5em;
+    font-size: 23px;
 }
 
 .nav_link{
     text-decoration : none;
     color: black;
-    padding-top: 1em;
+    padding-top: 1.5em;
+    font-size: 23px;
 }
 
 .nav_login, .nav_register {
     text-decoration : none;
     color: black;
+}
+
+.Logo {
+    width: 7em;
 }
