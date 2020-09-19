@@ -18,9 +18,11 @@ function Footer() {
                         회사 소개 
                     </div>
                 </Link>
-                <div>
-                    공지 사항 
-                </div>
+                <Link to="/notice" className="info">
+                    <div>
+                        공지 사항 
+                    </div>
+                </Link>
             </div>
             <div>
                 <hr />

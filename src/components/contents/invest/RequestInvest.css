@@ -1,0 +1,13 @@
+.invest_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.invest_info > div:first-child {
+    
+} 
+
+.invest_info > div:last-child > div{
+    margin: 2em 0em;
+    text-align: center;
+}

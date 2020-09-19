@@ -10,7 +10,7 @@ const CompanyImg = styled.img`
     margin: auto;
     background: black;
     width: 20em;
-    margin-bottom: 12em;
+    margin-bottom: 18em;
 `;
 
 const CompanySentence = styled.div`

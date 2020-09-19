@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login > * {
+    margin: 1em 0em;
+}
+
+.login > div:first-child {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.login > div:not(:nth-child(1))>*{
+    margin: 0.5em;
+}
+
+.login > button{
+    width: 100%;
+}

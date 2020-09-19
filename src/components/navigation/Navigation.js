@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import './Navigation.css';
 import { Link } from 'react-router-dom';
-import logo from './logo.png';
-import logo2 from './logo2.png';
+import logo from '../../images/new_logo.png';
+// import logo2 from './logo2.png';
 
 const NavigationDiv = styled.div`
     display: flex;
@@ -26,6 +26,9 @@ const NavigationRightDiv = styled.div`
 const NavigationContentsDiv = styled.div`
     margin: 0em 1em;
 `;
+const NavigationContentsDiv2 = styled.div`
+    margin: -10px 0em;
+`;
 
 function Navigation() {
 
@@ -36,12 +39,14 @@ function Navigation() {
         <img src={logo} className="Logo"></img>
     </NavigationContentsDiv>
                 <Link to="/" className="nav_link">
-                    <NavigationContentsDiv className="nav_title">First Penguin</NavigationContentsDiv>
+                    <NavigationContentsDiv2 className="nav_title">First Penguin</NavigationContentsDiv2>
                 </Link>
                 <Link to="/invest" className="nav_link">
                     <NavigationContentsDiv >투자하기</NavigationContentsDiv>
                 </Link>
+                <Link to="/requesetInvest" className="nav_link">
                 <NavigationContentsDiv>투자신청</NavigationContentsDiv>
+                </Link>
             </NavigationLeftDiv>
             <NavigationRightDiv>
                 <Link to="/login" className="nav_login">

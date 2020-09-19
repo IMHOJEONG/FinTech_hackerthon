@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import './Login.css';
 
 const LoginDiv = styled.div`
     margin: 0 auto;
@@ -19,10 +20,17 @@ const PASSWD = styled.input`
 
 function Login() {
     return (
-        <LoginDiv>
+        <LoginDiv className="login">
             <div>Login</div>
-            <ID></ID>
-            <PASSWD></PASSWD>
+            <div>
+                <div>ID</div>
+                <ID></ID>
+            </div>
+            <div>
+                <div>PassWord</div>
+                <PASSWD></PASSWD>
+            </div>
+            <button>확인</button>    
         </LoginDiv>
     );
 }

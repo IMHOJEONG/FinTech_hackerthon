@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import './Cards.css';
-import Image from './images/car.jpg';
+// import Image from './images/car.jpg';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
 const CardsDiv = styled.div`
-    width: 20em;
+    width: 30em;
     background : yellow;
     border-radius: 2px;
 `;
@@ -31,6 +31,7 @@ const ProgressBar = styled.div`
 
 const CardsImg = styled.img`
     width: 100%;
+    height: 20em;
     margin-bottom: -0.2em;
 `;
 
@@ -48,7 +49,7 @@ function Cards(props){
     
     return (
         <CardsDiv>
-            <CardsImg src={Image}>
+            <CardsImg src={props.img}>
             </CardsImg>
             <ProgressBar className="progressbar_container">
                 <div className="progressbar_container_last">
