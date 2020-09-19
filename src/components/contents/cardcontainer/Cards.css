@@ -1,0 +1,73 @@
+.progressbar_container{
+    background: rgba(240,240,240,0.8);
+    display: flex;
+}
+.cardsarticles > *{
+    margin: 0.5em;
+}
+.cardsarticles > div:first-child > *{
+    width: 5em;
+    font-size: 12px;
+    background : rgba(240,240,240,0.9);
+    color: gray;
+    padding: 0.5em;
+    border-radius : 3px;
+    /* text-align: center; */
+}
+
+    /* display: flex; */
+    /* font-size: 15px; */
+    /* justify-content: space-between; */
+
+.cardsinfo2 > * {
+    margin: 0em 0.5em;
+}
+
+.cardsinfo2 > div:first-child{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardsinfo2 > div:not(:first-child){
+    padding: 0.3em;
+}
+
+.cardsinfo2 > div:last-child{
+    /* font-size: 20px; */
+    width: 5em;
+}
+
+/* button */
+
+button {
+    background: white;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    text-decoration: none;
+}
+
+.buttons > * {
+    width: 100%;
+}
+
+.progressbar_container_last {
+    width: 100%;
+    text-align: center;
+    height: 1em;
+    
+
+}
+
+.bar{
+    width: 100%;
+    height: 1em;
+    background: blue;
+}
+

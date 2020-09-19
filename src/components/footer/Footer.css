@@ -1,0 +1,12 @@
+.footer1{
+    display: flex;
+    justify-content: center;
+}
+.footer1 > * {
+    margin: 1em 2em;
+}
+
+.info {
+    color: black;
+    text-decoration: none;
+}

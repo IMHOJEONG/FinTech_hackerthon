@@ -1,0 +1,88 @@
+.cards{
+    padding: 1em;
+    /* background : yellow; */
+}
+
+.infomation, button{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.infomation:nth-child(2){
+    display:flex;
+    flex-direction: column;
+}
+
+.infomation:nth-child(2) > div{
+    display:flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+button {
+    padding: 1em;
+}
+button > div {
+    margin: 0 auto;
+}
+
+.details {
+    background: white;
+}
+.details > div {
+    margin: 1em 0em;
+}
+
+.summary, .points, .authorinformation{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+.summary>*{
+    margin : 0em 1em;
+}
+
+.summary > div:first-child{
+    width: 37%;
+    font-weight: bold;
+}
+
+.summary > div:last-child {
+    display: flex;
+}
+
+.summary > div:last-child > div:first-child {
+    display: flex;
+    flex-direction: column;
+    background: rgba( 240,240, 240, 0.8);
+    /* justify-content: space; */
+    /* border: 1px solid black; */
+}
+.summary > div:last-child > div:first-child > div{
+    border: 1px solid black;
+    width: 65px;
+    height: 60px;
+    padding: 1em;
+}
+
+.summary > div:last-child > div:last-child > div{
+    border: 1px solid black;
+    /* width: 65px; */
+    height: 60px;
+    padding: 1em;
+}
+/* .summary > div:last-child > div > div:first-child {
+    border-right: 1px solid black;
+    width: 200px;
+    padding: 1em;
+} */
+
+.fixed_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed_div > div:first-child{
+    padding-top: 2em;
+}

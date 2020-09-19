@@ -1,0 +1,14 @@
+
+
+
+
+.companysentence >*{
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+.companysentence > div:first-child {
+    font-weight: bold;
+}

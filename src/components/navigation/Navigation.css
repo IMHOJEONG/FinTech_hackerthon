@@ -1,0 +1,23 @@
+* {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.first > div:nth-child(2){
+    /* margin: 12em; */
+    font-weight: bold;
+    font-size : 40px;
+}
+.first > div:nth-child(n+3), .first + div {
+    padding-top: 1em;
+}
+
+.nav_link{
+    text-decoration : none;
+    color: black;
+    padding-top: 1em;
+}
+
+.nav_login, .nav_register {
+    text-decoration : none;
+    color: black;
+}
